@@ -21,6 +21,9 @@
 		00907244187652B200C20836 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00907226187652B200C20836 /* UIKit.framework */; };
 		0090724C187652B200C20836 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0090724A187652B200C20836 /* InfoPlist.strings */; };
 		0090724E187652B200C20836 /* SegmentedControlTest01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0090724D187652B200C20836 /* SegmentedControlTest01Tests.m */; };
+		0090725A1876563A00C20836 /* ball1.png in Resources */ = {isa = PBXBuildFile; fileRef = 009072571876563A00C20836 /* ball1.png */; };
+		0090725B1876563A00C20836 /* ball2.png in Resources */ = {isa = PBXBuildFile; fileRef = 009072581876563A00C20836 /* ball2.png */; };
+		0090725C1876563A00C20836 /* ball3.png in Resources */ = {isa = PBXBuildFile; fileRef = 009072591876563A00C20836 /* ball3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		00907249187652B200C20836 /* SegmentedControlTest01Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SegmentedControlTest01Tests-Info.plist"; sourceTree = "<group>"; };
 		0090724B187652B200C20836 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0090724D187652B200C20836 /* SegmentedControlTest01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentedControlTest01Tests.m; sourceTree = "<group>"; };
+		009072571876563A00C20836 /* ball1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball1.png; sourceTree = "<group>"; };
+		009072581876563A00C20836 /* ball2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball2.png; sourceTree = "<group>"; };
+		009072591876563A00C20836 /* ball3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 		00907228187652B200C20836 /* SegmentedControlTest01 */ = {
 			isa = PBXGroup;
 			children = (
+				009072571876563A00C20836 /* ball1.png */,
+				009072581876563A00C20836 /* ball2.png */,
+				009072591876563A00C20836 /* ball3.png */,
 				00907231187652B200C20836 /* AppDelegate.h */,
 				00907232187652B200C20836 /* AppDelegate.m */,
 				00907234187652B200C20836 /* Main.storyboard */,
@@ -228,9 +237,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0090725C1876563A00C20836 /* ball3.png in Resources */,
+				0090725A1876563A00C20836 /* ball1.png in Resources */,
 				0090723B187652B200C20836 /* Images.xcassets in Resources */,
 				0090722D187652B200C20836 /* InfoPlist.strings in Resources */,
 				00907236187652B200C20836 /* Main.storyboard in Resources */,
+				0090725B1876563A00C20836 /* ball2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
